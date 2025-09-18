@@ -11,7 +11,7 @@ from tqdm import tqdm
 import torch
 import torchvision.transforms as transforms
 
-from models.bisenet import BiSeNet
+from fp_models.bisenet import BiSeNet
 from utils.common import vis_parsing_maps
 
 # Set up logging

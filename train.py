@@ -8,7 +8,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 from torch.optim.lr_scheduler import PolynomialLR
 
-from models.bisenet import BiSeNet
+from fp_models.bisenet import BiSeNet
 from utils.dataset import CelebAMaskHQ
 from utils.loss import OhemLossWrapper
 from utils.transform import TrainTransform

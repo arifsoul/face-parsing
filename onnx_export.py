@@ -2,7 +2,7 @@ import argparse
 
 import torch
 
-from models.bisenet import BiSeNet
+from fp_models.bisenet import BiSeNet
 
 
 def torch2onnx_export(params):
